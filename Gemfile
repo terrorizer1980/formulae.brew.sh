@@ -5,5 +5,5 @@ gem "github-pages", group: :jekyll_plugins
 
 group :test do
   gem "jsonlint"
-  gem "html-proofer"
+  gem "html-proofer", ">= 3.19.3"
 end
